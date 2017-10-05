@@ -1,0 +1,207 @@
+<style>
+    body {
+        font-family: arial;
+    }
+    #social {
+        margin-left: 80%;
+        margin-bottom: -30px;
+        margin-top: 10px;
+    }
+    .fa {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    #topvak {
+        margin-top: 10px;
+        margin-left: 40px;
+        display: flex;
+        justify-content: flex-start;
+        font-size: 25px;
+        height: 40px;
+        width: 200px;
+        background-image: linear-gradient(to right, #d65a02, #3a3836);
+        border: solid black 1px;
+        -webkit-box-shadow: 11px 13px 55px 1px rgba(0,0,0,0.53);
+        -moz-box-shadow: 11px 13px 55px 1px rgba(0,0,0,0.53);
+        box-shadow: 11px 13px 55px 1px rgba(0,0,0,0.53);
+    }
+    #topvak p {
+        color: white;
+        margin: 0px;
+        padding: 5px;
+    }
+    #foto {
+        width: 100%;
+        position: relative;
+        margin-top: -20px;
+        z-index: -5;
+    }
+    #header {
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100px;
+        margin-top: -130px;
+    }
+    #header h1 {
+        font-size: 30px;
+        color: white;
+        padding-top: 30px;
+        padding-left: 15px;
+    }
+    #nav {
+        background-image: linear-gradient(to right, #d65a02, #3a3836);
+        width: 100%;
+        height: 100px;
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+    }
+    li {
+        color: white;
+        list-style-type: none;
+        padding-left: 20px;
+        text-align: center;
+        margin-top: 40px;
+        border-right: solid 1px;
+        padding-right: 20px;
+        padding-bottom: 0px;
+        height: 20px;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    #vak {
+        margin-top: -256px;
+        background-color: #3a3836;
+        height: 200px;
+        width: 200px;
+    }
+    #vak2 {
+        margin-top: -315px;
+        background-color: #d65a02;
+        height: 100px;
+        width: 200px;
+    }
+    #vak p {
+        padding-top: 20px;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    #vak2 h1 {
+        padding-top: 35px;
+    }
+    #midden {
+        width: 100%;
+        background-image: url(Martin-Garrix-martin-garrix-39435389-710-434.png);
+        min-height: 500px;
+    }
+    #middenrij{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #mtitle h1 {
+        margin: 0px;
+        font-size: 25px;
+        border-bottom: solid 2px;
+        padding-bottom: 3px;
+        display: inline;
+    }
+    #mtitle {
+        text-align: center;
+        padding: 20px;
+    }
+    #m1 {
+        padding: 3em;
+        max-width: 100%;
+        height: 300px;
+        width: 300px;
+        background-image: url(m1.jpg);
+        background-size: cover;
+        margin-right: 50px;
+    }
+    #m2 {
+        padding: 3em;
+        max-width: 100%;
+        height: 300px;
+        width: 300px;
+        background-image: url(m2.jpg);
+        background-size: cover;
+        margin-right: 50px;
+    }
+    #m3 {
+        padding: 3em;
+        max-width: 100%;
+        height: 300px;
+        width: 300px;
+        background-image: url(m3.jpg);
+        background-size: cover;
+    }
+    #onderrij{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    #orij h1 {
+        margin: 0px;
+        font-size: 25px;
+        border-bottom: solid 2px;
+        padding-bottom: 3px;
+        display: inline;
+    }
+    #otitle {
+        margin-left: 9%;
+        padding-top: 20px;
+    }
+    #o1 {
+        padding: 20px;
+        max-width: 100%;
+        border-right: solid 1px;
+        font-size: 30px;
+        width: 20%;
+        text-align: right;
+    }
+    #o2 {
+        padding: 20px;
+        max-width: 100%;
+        width: 30%;
+        padding-left: 20px;
+    }
+    #o3 {
+        padding: 20px;
+        max-width: 100%;
+        width: 50%;
+        background-image: linear-gradient(to right, #d65a02, #3a3836);
+        font-size: 30px;
+        color: white;
+    }
+    #o2 h1 {
+        font-size: 25px;
+        margin: 0px;
+    }
+    #kleurentext {
+        color: #d65a02;
+    }
+    @media all and (max-width: 600px) {
+        #middenrij {
+            flex-direction: column;
+            padding-bottom: 20px;
+            align-items: center;
+        }
+        #m1 {
+            margin-right: 0px;
+        }
+        #m2 {
+            margin-right: 0px;
+        }
+        #vak {
+            display: none;
+        }
+        #vak2 {
+            display: none;
+        }
+    }      
+</style>

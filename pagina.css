@@ -1,0 +1,206 @@
+<style>
+    body {
+        font-family: arial;
+    }
+    #social {
+        margin-left: 80%;
+        margin-bottom: -30px;
+        margin-top: 10px;
+    }
+    .fa {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    #topvak {
+        margin-top: 10px;
+        margin-left: 40px;
+        display: flex;
+        justify-content: flex-start;
+        font-size: 25px;
+        height: 40px;
+        width: 200px;
+        background-image: linear-gradient(to right, #d65a02, #3a3836);
+        border: solid black 1px;
+        -webkit-box-shadow: 11px 13px 55px 1px rgba(0,0,0,0.53);
+        -moz-box-shadow: 11px 13px 55px 1px rgba(0,0,0,0.53);
+        box-shadow: 11px 13px 55px 1px rgba(0,0,0,0.53);
+        position: relative;
+        z-index: 1;
+    }
+    #topvak p {
+        color: white;
+        margin: 0px;
+        padding: 5px;
+    }
+    #balk2 {
+        width: 100%;
+        height: 80px;
+        background-image: url(Martin-Garrix-martin-garrix-39435389-710-434.png);
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+    }
+    #inbalk2 {
+        width: 80%;
+        height: 40px;
+        justify-content: center;
+        display: flex;
+        margin-left: 10%;
+        margin-top: 10px;
+        background-color: black;
+        color: white;
+    }
+    #inbalk2 p {
+        margin-top: 10px;
+    }
+    #pijlbeneden {
+        width: 0; 
+        height: 0; 
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 20px solid black;
+        margin-left: 50%;
+    }
+    #nav {
+        background-image: linear-gradient(to right, #d65a02, #3a3836);
+        width: 100%;
+        height: 100px;
+        flex-direction: row;
+        display: flex;
+        margin-top: -20px;
+        z-index: 0;
+        position: relative;
+    }
+    li {
+        color: white;
+        list-style-type: none;
+        padding-left: 20px;
+        text-align: center;
+        margin-top: 40px;
+        border-right: solid 1px;
+        padding-right: 20px;
+        padding-bottom: 0px;
+        height: 20px;
+    }
+    a {
+        position: relative;
+        z-index: 5;
+        color: white;
+        text-decoration: none;
+    }
+    #wrapper {
+        height: auto;
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    #links {
+        width: 50%;
+        margin-right: 5%;
+        padding-top: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    #rechts {
+        width: 25%;
+        flex-direction: column;
+        padding-top: 5%;
+    }
+    #rechts h1 {
+        padding-bottom: 5px;
+        font-size: 35px;
+    }
+    #rechts p {
+        font-size: 10px;
+    }
+    #foto {
+        background-image: url(garrixpagina.jpg);
+        background-size: cover;
+        width: 600px;
+        height: 300px;
+        justify-content: center;
+    }
+    #tekst {
+        margin-top: 20px;
+    }
+    #categorie {
+        font-size: 20px;
+    }
+    #nieuws {
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    #nieuws img {
+        width: 57px;
+        height: 57px;
+        margin-left: 5px;
+    }
+    #titel {
+        color: #d65a02;
+        font-size: 25px;
+    }
+    #fotonaam {
+        padding: none;
+        display: flex;
+        flex-direction: row;
+        height: 70px;
+    }
+    #fototekst h2{
+        margin: 0px;
+        font-size: 25px;
+        color: #d65a02;
+    }
+    #newsfoto {
+        background-image: url(news1600.png);
+        background-size: cover;
+        width: 55px;
+        height: 55px;
+        display: block;
+    }
+    #inleiding {
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+    hr {
+        border: 0;
+        height: 1px;
+        background: black;
+    }
+    @media screen and (max-width: 1800px) {
+        #vak {
+            display: none;
+        }
+        #vak2 {
+            display: none;
+        }
+        #foto {
+            width: 400px;
+        }
+     }
+     @media screen and (max-width: 1200px){
+        #foto {
+            width: 300px;
+            background-position: center;
+        }
+        #inleiding {
+            padding-top: 50px;
+        }
+         #newsfoto {
+             display: none;
+         }
+    }
+    @media screen and (max-width: 800px){
+        #foto {
+            width: 150px;
+            background-position: center;
+        }
+    }
+    @media screen and (max-width: 440px){
+        #foto {
+            display: none;
+        }
+    }
+</style>

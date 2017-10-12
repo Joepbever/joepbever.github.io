@@ -27,12 +27,12 @@ function notifyMe() {
         alert("Deze browser accepteert geen notifications");
     }
     else if (Notification.permission === "granted") {
-        const notification = new Notification("Poehee wat is dat vies bitter!");
+        const notification = new Notification("Zet je locatie aan om een map te zien!");
     }
     else if (Notification.permission !== "denied") {
         Notification.requestPermission(function (permission) {
             if (permission === "granted") {
-                const notification = new Notification("Poehee wat is dat vies bitter!");
+                const notification = new Notification("Zet je locatie aan om een map te zien!");
             }
         });
     }

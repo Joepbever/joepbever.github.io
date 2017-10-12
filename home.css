@@ -90,6 +90,11 @@
     #vak2 h1 {
         padding-top: 35px;
     }
+    #api {
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
     #midden {
         width: 100%;
         background-image: url(Martin-Garrix-martin-garrix-39435389-710-434.png);
